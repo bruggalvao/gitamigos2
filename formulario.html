@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            margin: 5% 35% 0 35%;
+        }
+        label {
+            display: flex;
+        }
+        input {
+            width: 100%;
+            height: 25px;
+            border-radius: 5px;
+            border: 1.5px solid rgb(166, 165, 165);
+        }
+        .campo {
+            margin: 4% 0 10% 0;
+        }
+        .btnSubmit {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contate-nos</h1>
+    </header>
+
+    <form>
+
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </div>
+
+        <div class="campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="campo">
+            <label for="telefone">telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+        </div>
+
+        <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+        <input type="mensagem" id="mensagem" name="mensagem">
+        </div>
+
+        <div class="btnSubmit">
+            <button type="submit" class="btn">Enviar</button>
+        </div>
+
+
+
+
+    </form>
+
+
+    <footer>
+        <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
+        <button class="btnContact"><a href="formulario.html">Contate-nos</a></button>
+    </footer>
+
+</body>
+
+</html>
